@@ -1,0 +1,56 @@
+/* *{
+  box-sizing: border-box;
+} */
+body{
+  background: lightblue;
+}
+.container{
+  width:700px;
+  background: #ccc;
+  margin: 300px 600px;
+}
+.list_1 h1{
+  text-align: center;
+  padding-top: 15px;
+}
+.list_1 input{
+  width:500px;
+  height:35px;
+  margin-left: 40px;
+}
+.list_1 span{
+  background:blue;
+  padding: 10px 30px;
+  cursor:pointer;
+  font-size: 17px;
+  font-weight: bold;
+  color:white;
+}
+.list_1 span:hover{
+  background: violet;
+}
+ ul{
+  margin:0;
+  list-style: none;
+}
+ul li{
+  margin:5px 55px 0px 0px;
+  cursor:pointer;
+  padding:10px 0px 10px 5px;
+  font-size: 20px;
+}
+ul li:hover{
+  background: lightblue;
+}
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* .close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+} */
